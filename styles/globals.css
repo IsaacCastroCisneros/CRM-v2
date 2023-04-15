@@ -1,0 +1,122 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.kDEcCH{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.kNxEtY{
+   text-shadow: 300 !important;
+}
+.sc-bcXHqe{
+    margin-top:  12px !important;
+}
+
+body
+{
+  font-size: 14.4px;
+  color: #98a6ad;
+}
+
+.Montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+.my-container
+{
+  width: 1920px;
+  max-width: 100%;
+  margin: 0 auto;
+/*   padding-left: 3.5rem;
+  padding-right: 3.5rem; */
+}
+img
+{
+  display: block;
+}
+
+.nav-option:hover .navbar-pipe
+{
+  display: block;
+}
+
+#file-upload-button
+{
+  cursor: pointer !important;
+  
+}
+
+.Montserrat{
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.cargando{ 
+  position: relative; 
+  color: red;
+  margin-top: 2em;
+  letter-spacing: 0.08em;
+  text-transform: uppercase
+}
+
+.rueda {
+  border: 10px solid #1C71F0;
+  border-radius: 50%;
+  border-left-color: transparent;
+  width: 80px;
+  height: 80px;
+  animation: giro 1s linear infinite;
+}
+
+@keyframes giro {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.d-none{
+  display: none;
+}
+
+.bg {
+  animation: slide 3s ease-in-out infinite alternate;
+  background-image: linear-gradient(-60deg, #1D4ED8 50%, #3c66da 50%);
+  bottom: 0;
+  left: -50%;
+  opacity: 0.5;
+  position: fixed;
+  right: -50%;
+  top: 0;
+  z-index: -1;
+}
+
+.bg2 {
+  animation-direction: alternate-reverse;
+  animation-duration: 4s;
+}
+
+.bg3 {
+  animation-duration: 5s;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(-25%);
+  }
+  100% {
+    transform: translateX(25%);
+  }
+}
+
+/* @media screen and (max-width:1200px)
+{
+  .my-container
+  {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+} */
+

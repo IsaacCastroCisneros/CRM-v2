@@ -1,11 +1,12 @@
-import Link from 'next/link'
 import React from 'react'
+import MyLogin from './components/MyLogin/MyLogin';
 
-export default function page() {
+export default async function Login() 
+{
   return (
-    <>
-      <Link href={'lel'} >lel</Link>
-      <div>lgin</div>
-    </>
+      <MyLogin />
   );
 }
+
+
+
